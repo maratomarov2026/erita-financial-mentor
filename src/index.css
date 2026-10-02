@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #fbf6ef;
+  color: #4a3f35;
+  font-family: "Nunito", "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: #e3a893;
+  color: #4a3f35;
+}
+
+button {
+  font-family: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* MVP: интерфейс всегда в тёплой светлой теме; тёмная тема — через переключатель в Профиле (P1) */
+}
